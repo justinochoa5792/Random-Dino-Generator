@@ -1,0 +1,44 @@
+.App {
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: center / cover
+    url("./img/eutah-mizushima-OWwK_0_EnxY-unsplash.jpg");
+  color: hsl(0, 0%, 6%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Sigmar One", cursive;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+button {
+  background: hsl(354.3, 100%, 37.1%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 150ms ease-in-out;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+button:hover {
+  background: rgb(163, 0, 16);
+}
+
+#dinoWrapper {
+  width: 80%;
+  max-width: 25rem;
+  display: block;
+  margin: auto;
+}
